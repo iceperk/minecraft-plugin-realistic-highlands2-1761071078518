@@ -1,0 +1,17 @@
+name: RealisticHighlands2
+version: 1.0
+main: com.realistichighlands2.RealisticHighlands2
+api-version: 1.20
+author: YourName
+description: Generates realistic highlands with huge mountains, deep valleys, rivers, and natural lakes.
+
+commands:
+  generatereallands:
+    description: Generates realistic highlands
+    permission: generatereallands.use
+    usage: /generatereallands
+
+permissions:
+  generatereallands.use:
+    description: Permission for generatereallands command
+    default: op
